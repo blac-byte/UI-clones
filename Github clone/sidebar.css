@@ -1,0 +1,109 @@
+.sidebar{
+    grid-area: sidebar;
+
+    display: flex;
+
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: #3d444db3;
+
+    background-color: #0D1117;
+}
+
+.sidebar__container{
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 400px;
+    margin-top: 24px;
+
+}
+
+.sidebar_container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0 24px 24px 24px;
+}
+
+
+.container__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    color: white;
+}
+
+.top-repo{
+    font-size: 14px;
+}
+
+.container__header-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 5px;   
+    width: 66px;
+    height: 30px;
+
+    border: 1px solid #51A15A;
+    border-radius: 7px;
+    background-color: #2A903A;
+
+    color: white;
+    font-size: 12px;
+}
+
+.container__body{
+    display: flex;
+}
+
+.container__search{
+    flex: 1;
+    height: 32px;
+    box-sizing: border-box;
+    padding-left: 10px; 
+    
+
+    background-color: #151B23;
+    border: 1px solid #3D444D;
+    border-radius: 6px;
+
+    outline: none;
+}
+
+.container__search::placeholder {
+    color: #8B949E;   /* GitHub-like gray */
+    opacity: 1;  
+       /* important for Firefox */
+}
+
+
+.container__search:focus{
+    border: 2.5px solid #1F6FEB;
+    color: white;
+}
+
+.container__footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.repo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+    margin-top: 8px;
+
+    color: white;
+    font-size: 14px;
+
+}

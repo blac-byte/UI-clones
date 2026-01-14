@@ -1,109 +1,103 @@
-.sidebar{
-    grid-area: sidebar;
+.sidebar {
+  grid-area: sidebar;
 
-    display: flex;
+  display: flex;
 
-    border-right-style: solid;
-    border-width: 1px;
-    border-color: #3d444db3;
+  border-right-style: solid;
+  border-width: 1px;
+  border-color: #3d444db3;
 
-    background-color: #0D1117;
+  background-color: #0d1117;
 }
 
-.sidebar__container{
-    flex: 1;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.sidebar__content {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    height: 400px;
-    margin-top: 24px;
-
+  height: 400px;
+  margin-top: 24px;
 }
 
-.sidebar_container{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding: 0 24px 24px 24px;
+.sidebar__content-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 24px 24px 24px;
 }
 
+.sidebar__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 
-.container__header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
-    color: white;
+  color: white;
 }
 
-.top-repo{
-    font-size: 14px;
+.sidebar__heading {
+  font-size: 14px;
 }
 
-.container__header-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.sidebar-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    gap: 5px;   
-    width: 66px;
-    height: 30px;
+  gap: 5px;
+  width: 66px;
+  height: 30px;
 
-    border: 1px solid #51A15A;
-    border-radius: 7px;
-    background-color: #2A903A;
+  border: 1px solid #51a15a;
+  border-radius: 7px;
+  background-color: #2a903a;
 
-    color: white;
-    font-size: 12px;
+  color: white;
+  font-size: 12px;
 }
 
-.container__body{
-    display: flex;
+.sidebar__body {
+  display: flex;
 }
 
-.container__search{
-    flex: 1;
-    height: 32px;
-    box-sizing: border-box;
-    padding-left: 10px; 
-    
+.sidebar-input {
+  flex: 1;
+  height: 32px;
+  box-sizing: border-box;
+  padding-left: 10px;
 
-    background-color: #151B23;
-    border: 1px solid #3D444D;
-    border-radius: 6px;
+  background-color: #151b23;
+  border: 1px solid #3d444d;
+  border-radius: 6px;
 
-    outline: none;
+  outline: none;
 }
 
 .container__search::placeholder {
-    color: #8B949E;   /* GitHub-like gray */
-    opacity: 1;  
-       /* important for Firefox */
+  color: #8b949e; /* GitHub-like gray */
+  opacity: 1;
+  /* important for Firefox */
 }
 
-
-.container__search:focus{
-    border: 2.5px solid #1F6FEB;
-    color: white;
+.container__search:focus {
+  border: 2.5px solid #1f6feb;
+  color: white;
 }
 
-.container__footer{
-    display: flex;
-    flex-direction: column;
-    
+.sidebar__list {
+  display: flex;
+  flex-direction: column;
 }
 
-.repo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
+.repo-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
 
-    margin-top: 8px;
+  margin-top: 8px;
 
-    color: white;
-    font-size: 14px;
-
+  color: white;
+  font-size: 14px;
 }

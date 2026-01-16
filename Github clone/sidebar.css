@@ -38,6 +38,7 @@
 
 .sidebar__heading {
   font-size: 14px;
+  font-weight: 600;
 }
 
 .sidebar-btn {
@@ -88,6 +89,7 @@
 .sidebar__list {
   display: flex;
   flex-direction: column;
+  gap: 4px;
 }
 
 .repo-card {
@@ -100,4 +102,24 @@
 
   color: white;
   font-size: 14px;
+}
+
+.user-profile {
+  box-sizing: content-box;
+  
+  border-radius: 50%;
+  border: 1px solid #5b5b5b;
+
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.user-profile--small{
+  width: 16px;
+  height: 16px;
+}
+
+
+.repo-card__slash {
+  color: #6e7681;
 }
